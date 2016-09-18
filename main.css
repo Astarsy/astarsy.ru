@@ -1,0 +1,63 @@
+body,html{
+    height: 100%;
+    margin: 0;
+    font-size:28px;
+}
+.parallax {
+    /* Set a specific height */
+    min-height: 768px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.back1{
+    background-image: url("img/back2.jpg");    
+}.back2{
+    background-image: url("img/back1.jpg");    
+}
+.content1{
+    color:white;
+    background-color:rgba(0, 0, 0, .5);
+    background-image:url("img/back2.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.content2{
+    color:white;
+    background-color:rgba(0, 0, 0, .5);
+    background-image:url("img/back1.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.block1{
+    background-color:#bbf;
+    margin-top: -35%;
+    margin-bottom: 45%;
+}
+.block2{
+    background-color:#bfb;
+}
+.block3{
+    background-color:#bbf;
+    margin-top: -30%;
+    margin-bottom: 45%;
+}
+.block4{
+    display: inline-block;
+    width: 50%;
+    background-color:#bfb;
+}
+header{
+    background-color:#000;
+    height: 100px;}
+footer{
+    background-color:#fff;
+    height: 240px;
+}
